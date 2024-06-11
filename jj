@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自然音樂教育機構</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5dc;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #8fbc8f;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            background-color: #98fb98;
+            text-align: center;
+        }
+        nav li {
+            display: inline;
+            margin: 0 1em;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+        .content {
+            padding: 2em;
+        }
+        .contact-form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 1em;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            padding: 1em 2em;
+            background-color: #8fbc8f;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .social-media a {
+            margin: 0 1em;
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>自然音樂教育機構</h1>
+        <p>自然、希望、夢想、實踐</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">關於我們</a></li>
+            <li><a href="#achievements">店家成果展示</a></li>
+            <li><a href="#contact">聯絡我們</a></li>
+        </ul>
+    </nav>
+    <div class="content" id="about">
+        <h2>關於我們</h2>
+        <p>自然音樂教育機構致力於提供多元多樣的音樂樂器教學和課程。我們的目標是讓每一位學生在舒適、自然的環境中學習音樂，並發揮他們的潛力。</p>
+    </div>
+    <div class="content" id="achievements">
+        <h2>店家成果展示</h2>
+        <p>我們的教室和工作室遍布各地，並且取得了豐碩的成果。以下是我們部分教學成果的展示：</p>
+        <ul>
+            <li>成功開設了 10 間音樂教室</li>
+            <li>培養了超過 500 名學生</li>
+            <li>舉辦了 50 場音樂會和表演活動</li>
+        </ul>
+    </div>
+    <div class="content" id="contact">
+        <h2>聯絡我們</h2>
+        <div class="contact-form">
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+                <label for="name">姓名:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">電子郵件:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">訊息:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">送出</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>自然音樂教育機構 &copy; 2024</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.instagram.com">Instagram</a>
+            <a href="https://www.twitter.com">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
